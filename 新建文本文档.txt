@@ -1,0 +1,55 @@
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ git init
+Initialized empty Git repository in C:/Users/zara1/Desktop/2019-11-08/.git/
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ git remote add Origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ git remote add Origin https://github.com/Landon-Z/ProjectReposit.git
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ git pull add Origin master
+fatal: 'add' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ ^C
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ ^C
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$ git pull Origin master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Landon-Z/ProjectReposit
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> Origin/master
+
+zara1@LAPTOP-O448C1EN MINGW64 ~/Desktop/2019-11-08 (master)
+$
